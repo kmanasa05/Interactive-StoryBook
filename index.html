@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Storybook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="storybook">
+        <div class="page" id="page1">
+            <h1>Once upon a time...</h1>
+            <p>There was a small village with a magical forest.</p>
+            <button id="exploreButton1" class="button">Explore the Forest</button>
+        </div>
+        <div class="page" id="page2" style="display: none;">
+            <h1>In the forest...</h1>
+            <p>The villagers discovered a mysterious treasure.</p>
+            <img src="images/forest.png" alt="Forest" class="story-image">
+            <button id="exploreButton2" class="button">Find the Treasure</button>
+        </div>
+        <div class="page" id="page3" style="display: none;">
+            <h1>Discovering the treasure...</h1>
+            <p>The villagers stumbled upon an ancient treasure chest concealed in the forest.</p>
+            <img src="images/treasure.png" alt="Treasure" class="story-image">
+            <button id="endButton" class="button">The End</button>
+        </div>
+        <div class="page" id="page4" style="display: none;">
+            <h1>The End</h1>
+            <p>The villagers lived happily ever after with their newfound treasure.</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
